@@ -183,7 +183,7 @@ class LanguageTr extends Languages {
   @override
   String get labelDeleteCache => "Önbelleği Sil";
   @override
-  String get labelDeleteCacheJustification => "SongTube'nin önbelleğini sil";
+  String get labelDeleteCacheJustification => "HaydiKids'nin önbelleğini sil";
   @override
   String get labelAndroid11Fix => "Android 11 Düzeltmesi";
   @override

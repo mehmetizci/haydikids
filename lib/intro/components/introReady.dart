@@ -83,7 +83,7 @@ class IntroReady extends StatelessWidget {
                                     Languages.of(context).labelEnjoy +
                                     " "),
                             TextSpan(
-                                text: "SongTube!",
+                                text: "HaydiKids!",
                                 style: TextStyle(
                                     color: Theme.of(context).accentColor,
                                     fontWeight: FontWeight.w600))

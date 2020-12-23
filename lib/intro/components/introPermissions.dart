@@ -101,7 +101,7 @@ class _IntroPermissionsState extends State<IntroPermissions> {
                             color: Theme.of(context).textTheme.bodyText1.color),
                         children: [
                           TextSpan(
-                              text: "SongTube ",
+                              text: "HaydiKids ",
                               style: TextStyle(
                                   color: Theme.of(context).accentColor,
                                   fontWeight: FontWeight.w600)),

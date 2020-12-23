@@ -9,7 +9,7 @@ import 'package:youtube_explode_dart/youtube_explode_dart.dart';
 /// 
 /// These will only work using a Fork of the original youtube_explode_dart
 /// library which has the methods to convert its objects into maps for json
-/// encode/decode. The fork can be found on [https://github.com/songtube]
+/// encode/decode. The fork can be found on [https://github.com/haydikids]
 class YoutubeExtractor {
 
   /// All Data returned by this isolate has to be on a String or Json Format

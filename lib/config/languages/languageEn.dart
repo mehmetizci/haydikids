@@ -183,7 +183,7 @@ class LanguageEn extends Languages {
   @override
   String get labelDeleteCache => "Delete Cache";
   @override
-  String get labelDeleteCacheJustification => "Clear SongTube Cache";
+  String get labelDeleteCacheJustification => "Clear HaydiKids Cache";
   @override
   String get labelAndroid11Fix => "Android 11 Fix";
   @override

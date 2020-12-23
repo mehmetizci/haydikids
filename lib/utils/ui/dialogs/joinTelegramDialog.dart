@@ -18,7 +18,7 @@ class JoinTelegramDialog extends StatelessWidget {
           Text("Join Telegram Channel!")
         ],
       ),
-      content: Text("Do you like SongTube? Please join the Telegram Channel! You will find " +
+      content: Text("Do you like HaydiKids? Please join the Telegram Channel! You will find " +
           "Updates, Information, Development, Group Link and other Social links." +
           "\n\nIn case you have an issue or a great recommentation in your mind, " +
           "please join the Group from the Channel and write it down! I will be " +
@@ -28,7 +28,7 @@ class JoinTelegramDialog extends StatelessWidget {
           child: Text("Join"),
           onPressed: () {
             prefs.showJoinTelegramDialog = false;
-            launch("https://t.me/songtubechannel");
+            launch("https://t.me/haydikidschannel");
             Navigator.pop(context);
           },
         ),

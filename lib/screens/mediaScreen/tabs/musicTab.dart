@@ -42,8 +42,8 @@ class MediaMusicTab extends StatelessWidget {
         onSongPlay: (MediaItem song) async {
           if (!AudioService.running) {
             await AudioService.start(
-              backgroundTaskEntrypoint: songtubePlayer,
-              androidNotificationChannelName: 'SongTube',
+              backgroundTaskEntrypoint: haydikidsPlayer,
+              androidNotificationChannelName: 'HaydiKids',
               // Enable this if you want the Android service to exit the foreground state on pause.
               //androidStopForegroundOnPause: true,
               androidNotificationColor: 0xFF2196f3,

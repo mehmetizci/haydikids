@@ -10,7 +10,7 @@ import 'languages/languageIgbo-NG.dart';
 import 'languages/languageId.dart';
 import 'languages/languageTr.dart';
 
-/// Multi-Language Support for SongTube, for new Languages to be supported
+/// Multi-Language Support for HaydiKids, for new Languages to be supported
 /// a new [File] in this project [internal/languages] folder needs to be
 /// created named: [language<Code>.dart], you can then copy the contents
 /// of any other already supported Language and adapt/translate it to your

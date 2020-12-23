@@ -185,7 +185,7 @@ class LanguageId extends Languages {
   @override
   String get labelDeleteCache => "Hapus Cache";
   @override
-  String get labelDeleteCacheJustification => "Hapus Cache SongTube";
+  String get labelDeleteCacheJustification => "Hapus Cache HaydiKids";
   @override
   String get labelAndroid11Fix => "Perbaikan Android 11";
   @override

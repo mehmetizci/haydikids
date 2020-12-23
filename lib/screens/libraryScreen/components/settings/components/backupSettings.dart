@@ -49,7 +49,7 @@ class BackupSettings extends StatelessWidget {
                           await getApplicationDocumentsDirectory();
                       String backupPath =
                           await ExtStorage.getExternalStorageDirectory() +
-                              "/SongTube/Backup/";
+                              "/HaydiKids/Backup/";
                       if (!await Directory(backupPath).exists())
                         await Directory(backupPath).create();
                       String path =
@@ -93,7 +93,7 @@ class BackupSettings extends StatelessWidget {
                           await getApplicationDocumentsDirectory();
                       String backupPath =
                           await ExtStorage.getExternalStorageDirectory() +
-                              "/SongTube/Backup/";
+                              "/HaydiKids/Backup/";
                       String path =
                           join(documentsDirectory.path, 'MediaItems.db');
                       var scaffoldKey = Scaffold.of(context);

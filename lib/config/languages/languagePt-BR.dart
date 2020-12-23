@@ -185,7 +185,7 @@ class LanguagePtBr extends Languages {
   @override
   String get labelDeleteCache => "Excluir Cache";
   @override
-  String get labelDeleteCacheJustification => "Limpar o Cache do SongTube";
+  String get labelDeleteCacheJustification => "Limpar o Cache do HaydiKids";
   @override
   String get labelAndroid11Fix => "Correção para o Android 11";
   @override

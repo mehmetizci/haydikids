@@ -189,7 +189,7 @@ class LanguageEs extends Languages {
   @override
   String get labelDeleteCache => "Borrar Caché";
   @override
-  String get labelDeleteCacheJustification => "Borra el Caché de SongTube";
+  String get labelDeleteCacheJustification => "Borra el Caché de HaydiKids";
   @override
   String get labelAndroid11Fix => "Parche para Android 11";
   @override

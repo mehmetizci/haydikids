@@ -10,7 +10,7 @@ import 'package:haydikids/screens/libraryScreen/components/quickAcessTile.dart';
 // Packages
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
-import 'package:haydikids/screens/libraryScreen/components/songtubeBanner.dart';
+import 'package:haydikids/screens/libraryScreen/components/haydikidsBanner.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:provider/provider.dart';
 
@@ -22,8 +22,8 @@ class LibraryScreen extends StatelessWidget {
       body: ListView(
         physics: BouncingScrollPhysics(),
         children: <Widget>[
-          // SongTube Banner
-          SongTubeBanner(
+          // HaydiKids Banner
+          HaydiKidsBanner(
             appName: config.appName,
             appVersion: config.appVersion,
           ),
@@ -40,7 +40,7 @@ class LibraryScreen extends StatelessWidget {
             tileIcon: Icon(MdiIcons.telegram, color: Colors.blue),
             title: "Telegram",
             onTap: () {
-              launch("https://t.me/songtubechannel");
+              launch("https://t.me/haydikidschannel");
             },
           ),
           // Github
@@ -48,7 +48,7 @@ class LibraryScreen extends StatelessWidget {
             tileIcon: Icon(EvaIcons.githubOutline, color: Colors.blueGrey),
             title: "GitHub",
             onTap: () {
-              launch("https://github.com/SongTube");
+              launch("https://github.com/HaydiKids");
             },
           ),
           // Licenses

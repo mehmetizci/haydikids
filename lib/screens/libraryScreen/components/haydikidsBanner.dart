@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:avatar_glow/avatar_glow.dart';
 import 'package:haydikids/config/languages.dart';
 
-class SongTubeBanner extends StatelessWidget {
+class HaydiKidsBanner extends StatelessWidget {
   final String appName;
   final String appVersion;
-  SongTubeBanner({@required this.appName, @required this.appVersion});
+  HaydiKidsBanner({@required this.appName, @required this.appVersion});
   @override
   Widget build(BuildContext context) {
     return Padding(

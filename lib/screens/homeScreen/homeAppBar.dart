@@ -102,7 +102,7 @@ class _HomePageAppBarState extends State<HomePageAppBar> {
                   fit: BoxFit.cover,
                 ),
               ),
-              searchHint: "SongTube",
+              searchHint: "HaydiKids",
               onTap: () {
                 manager.showSearchBar = true;
               })),

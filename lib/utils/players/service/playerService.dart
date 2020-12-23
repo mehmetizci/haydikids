@@ -34,11 +34,11 @@ MediaControl stopControl = MediaControl(
 );
 
 // NOTE: Your entrypoint MUST be a top-level function.
-void songtubePlayer() async {
-  AudioServiceBackground.run(() => SongTubePlayerService());
+void haydikidsPlayer() async {
+  AudioServiceBackground.run(() => HaydiKidsPlayerService());
 }
 
-class SongTubePlayerService extends BackgroundAudioTask {
+class HaydiKidsPlayerService extends BackgroundAudioTask {
   List<MediaItem> _queue;
   List<MediaItem> get queue => _queue;
   AudioPlayer _player;

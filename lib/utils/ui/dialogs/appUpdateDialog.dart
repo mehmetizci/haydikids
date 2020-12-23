@@ -33,7 +33,7 @@ class AppUpdateDialog extends StatelessWidget {
               ),
               SizedBox(width: 4),
               Text(
-                "SongTube",
+                "HaydiKids",
                 style: TextStyle(
                     color: Theme.of(context).textTheme.bodyText1.color,
                     fontFamily: 'YTSans',
@@ -96,7 +96,7 @@ class AppUpdateDialog extends StatelessWidget {
             )),
         InkWell(
           onTap: () {
-            launch("https://t.me/songtubechannel");
+            launch("https://t.me/haydikidschannel");
           },
           child: Ink(
             height: 50,
