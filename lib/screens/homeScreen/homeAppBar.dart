@@ -36,7 +36,7 @@ class _HomePageAppBarState extends State<HomePageAppBar> {
       title: AnimatedSwitcher(
           reverseDuration: Duration(milliseconds: 200),
           duration: Duration(milliseconds: 400),
-          child: STSearchBar(
+          child: HKSearchBar(
               controller: manager.urlController,
               focusNode: manager.searchBarFocusNode,
               onSearch: (searchQuery) async {
